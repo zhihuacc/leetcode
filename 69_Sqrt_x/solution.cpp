@@ -4,7 +4,7 @@ public:
         
         int left = 0, right = x, mid;
         long sq;
-        // WARN: Using left < right causes wrong answers.
+        // WARN: Using left < right gives wrong answers.
         while (left <= right) {
             
             mid = (left + right) / 2;
@@ -18,7 +18,7 @@ public:
             }
         }
         
-        // WARN: returning left causes wrong answers.
+        // WARN: returning left gives wrong answers.
         return right;
     }
 };
