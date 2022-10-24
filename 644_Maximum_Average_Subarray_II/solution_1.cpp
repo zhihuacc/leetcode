@@ -52,3 +52,5 @@ public:
 
 // Binary search
 // NOTE: same idea can solve finding min average with at least k 
+// NOTE: There is a O(n) solution using convex hull window, 
+//   https://leetcode.com/problems/maximum-average-subarray-ii/discuss/105476/Python-Advanced-O(n)-solution-(Convex-Hull-Window)
